@@ -428,7 +428,6 @@ def lerp(p0, p1, t):
 
 def matrix_to_quat(R) -> torch.Tensor:
     '''
-    https://github.com/duolu/pyrotation/blob/master/pyrotation/pyrotation.py
     Convert a rotation matrix to a unit quaternion.
     This uses the Shepperd’s method for numerical stability.
     '''
